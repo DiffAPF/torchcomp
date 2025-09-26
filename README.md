@@ -251,7 +251,7 @@ def avg(rms: torch.Tensor, avg_coef: Union[torch.Tensor, float]):
 
 ## Citation
 
-If you find this repository useful in your research, please cite our work with the following BibTex entry:
+If you find this repository useful in your research, please cite our work with the following BibTex entries:
 
 ```bibtex
 @inproceedings{ycy2024diffapf,
@@ -261,4 +261,12 @@ If you find this repository useful in your research, please cite our work with t
     year={2024},
     pages={345--352},
 }
+
+@inproceedings{ycy2025la2a,
+    title={Sound Matching an Analogue Levelling Amplifier Using the Newton-Raphson Method},
+    author={Chin-Yun Yu and György Fazekas},
+    booktitle={AES International Conference on Artificial Intelligence and Machine Learning for Audio},
+    year={2025},
+} 
+
 ```
