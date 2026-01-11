@@ -27,9 +27,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install flake8 pytest
-          # pip install numpy numba
-          pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-          # pip install torchlpc
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
           pip install . --no-build-isolation
       - name: Lint with flake8
         run: |
