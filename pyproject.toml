@@ -1,0 +1,32 @@
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests", "tests.*"]
+
+[project]
+name = "torchcomp"
+version = "0.2.1"
+description = "Fast, efficient, and differentiable dynamic range compression/expansion/limiting for PyTorch."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Chin-Yun Yu", email = "chin-yun.yu@qmul.ac.uk"},
+]
+maintainers = [
+    {name = "Chin-Yun Yu", email = "chin-yun.yu@qmul.ac.uk"},
+]
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch>=2",
+    "torchlpc",
+    "numpy",
+    "numba",
+]
+
+[project.urls]
+Homepage = "https://github.com/DiffAPF/torchcomp"
+
